@@ -10,11 +10,11 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 import com.portfolio.demo.Entities.User;
-import com.portfolio.demo.Entities.UserRepository;
 import com.portfolio.demo.dto.LoginRequestDTO;
 import com.portfolio.demo.dto.RegisterRequestDTO;
 import com.portfolio.demo.dto.ResponseDTO;
 import com.portfolio.demo.infra.security.TokenService;
+import com.portfolio.demo.repositories.UserRepository;
 
 import lombok.RequiredArgsConstructor;
 

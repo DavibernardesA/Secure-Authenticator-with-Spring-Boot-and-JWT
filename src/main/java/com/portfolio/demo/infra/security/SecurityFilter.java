@@ -11,7 +11,7 @@ import org.springframework.stereotype.Component;
 import org.springframework.web.filter.OncePerRequestFilter;
 
 import com.portfolio.demo.Entities.User;
-import com.portfolio.demo.Entities.UserRepository;
+import com.portfolio.demo.repositories.UserRepository;
 
 import jakarta.servlet.FilterChain;
 import jakarta.servlet.ServletException;

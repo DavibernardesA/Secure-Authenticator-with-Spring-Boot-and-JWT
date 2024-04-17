@@ -9,7 +9,7 @@ import org.springframework.security.core.userdetails.UsernameNotFoundException;
 import org.springframework.stereotype.Component;
 
 import com.portfolio.demo.Entities.User;
-import com.portfolio.demo.Entities.UserRepository;
+import com.portfolio.demo.repositories.UserRepository;
 
 @Component
 public class CustomUserDetailsService implements UserDetailsService {
